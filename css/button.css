@@ -1,0 +1,10 @@
+.button {
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.button-green {
+  background: green;
+  color: white;
+}

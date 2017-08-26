@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Kurale&amp;subset=cyrillic,cyrillic-ext,devanagari,latin-ext" rel="stylesheet">
+
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/intro.css" rel="stylesheet">
+  <link href="css/text.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+  <link href="css/routes.css" rel="stylesheet">
+  <link href="css/instructors.css" rel="stylesheet">
+  <link href="css/order.css" rel="stylesheet">
+  <link href="css/contacts.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+
+  <title>Полеты на воздушном шаре!</title>
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="header-logo">
+      <img class="header-logo-image" src="images/logo.jpg" alt="[Воздушный шар]" />
+    </div>
+    <div class="header-nav buffer-both">
+      <ul>
+        <li class="header-nav-item">
+        <a class="header-nav-link" href="#routes">Маршруты</a>
+        </li>
+        <li class="header-nav-item">
+        <a class="header-nav-link" href="#instructors">Инструкторы</a>
+        </li>
+        <li class="header-nav-item">
+        <a class="header-nav-link" href="#order">Заказать</a>
+        </li>
+        <li class="header-nav-item">
+        <a class="header-nav-link" href="#contacts">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <div class="intro">
+    <div class="heading">
+      <h1 class="title main-title">Полёты на воздушном шаре</h1>
+      <div class="heading-button">
+        <a href="#order" class="button button-green">Полетели!</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="routes" id="routes">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="title chapter-title">Маршруты</h2>
+      </div>
+      <div class="half-column">
+        <div class="route">
+          <div class="route-name">
+            <h3>Горный</h3>
+          </div>
+          <div class="route-content">
+            <img class="route-img" src="images/mountain.jpg" alt="Горы" title="Горы">
+            <p>Вас ожидают потрясающие горные пейзажи. Здесь красиво всегда: и ранней весной, и золотой осенью, и зимой, когда горы покрываются снегом. </p>
+          </div>
+        </div>
+      </div>
+      <div class="half-column">
+        <div class="route">
+          <div class="route-name">
+            <h3>Озерный</h3>
+          </div>
+          <div class="route-content">
+            <img class="route-img" src="images/lake.jpg" alt="Озеро" title="Озеро">
+            <p>Только на этом маршруте самые потрясающие озерные виды. В течение примерно 60 минут Вы будете наслаждаться потоками свежего чистого воздуха, теплыми солнечными лучами и великолепными видами.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="instructors" id="instructors">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="title chapter-title buffer-bottom">Лучшие инструкторы</h2>
+      </div>
+      <div class="third-column">
+        <img class="instructors-img" src="images/petr.jpg" alt="Петр" title="Петр">
+        <h3>Пётр</h3>
+        <p>Обеспечит вам самый веселый полет.</p>
+      </div>
+      <div class="third-column">
+        <img class="instructors-img" src="images/ilja.jpg" alt="Илья" title="Илья">
+        <h3>Илья</h3>
+        <p>Самые интересные и познавательные истории только у Ильи.</p>
+      </div>
+      <div class="third-column">
+        <img class="instructors-img" src="images/tom.jpg" alt="Том" title="Том">
+        <h3>Том</h3>
+        <p>Полет для бессмертных.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="order" id="order">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="title chapter-title">Заказать полёт</h2>
+      </div>
+      <div class="half-column">
+        <div class="order-form">
+          <form action="" method="">
+            <label for="text">Количество человек</label> <br />
+            <input class="order-input" type="text" /> <br />
+            <label for="text">Маршрут</label> <br />
+            <select class="order-input" size="1" name="route">
+              <option disabled>Выберите маршрут</option>
+              <option selected value="Горный">Горный</option>
+              <option value="Озёрный">Озёрный</option>
+           </select> <br />
+            <label for="text">Дата</label> <br />
+            <input class="order-input" type="text" /> <br />
+            <input type="submit" value="Заказать" class="button button-green buffer-top" />
+          </form>
+        </div>
+      </div>
+      <div class="half-column text-center">
+        <img src="images/ballon.jpg" alt="Воздушный шар" title="Воздушный шар">
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="contacts" id="contacts">
+    <div class="container">
+      <div class="half-column buffer-top-big">
+        <ul>
+          <li>Телефон: +4 1237 012 56</li>
+          <li>Email: ballon@gmail.com</li>
+        </ul>
+      </div>
+      <div class="half-column buffer-top">
+        <h2 class="title text-center">Незабываемые впечетления здесь!</h2>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

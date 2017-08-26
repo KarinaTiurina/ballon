@@ -1,0 +1,18 @@
+.intro {
+  background-image: url(../images/bg.jpg);
+  background-color: #AFEEEE;
+  background-size: cover;
+
+  padding-top: 218px;
+  padding-bottom: 218px;
+  margin-top: 76px;
+}
+
+.heading {
+  margin-left: 100px;
+}
+
+.heading-button {
+  margin-top: 50px;
+  margin-left: 250px;
+}

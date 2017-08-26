@@ -1,0 +1,21 @@
+body {
+  font-size: 19px;
+  font-family: 'Kurale', serif;
+}
+
+.title {
+  font-family: 'Bad Script', cursive;
+  font-size: 2em;
+}
+
+.main-title {
+  font-size: 3em;
+}
+
+.chapter-title {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}

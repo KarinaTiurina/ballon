@@ -1,0 +1,27 @@
+.routes {
+  height: 400px;
+  background:  #DCDCDC;
+  background: linear-gradient(to top, #AFEEEE, #DCDCDC);
+}
+
+.route-img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.route {
+  height: 290px;
+  padding: 5px;
+  margin: 10px;
+  background: cornflowerblue;
+  border: 2px solid gray;
+}
+
+.route:after {
+  content: '';
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,15 @@
+.instructors {
+  height: 350px;
+  background:  #AFEEEE;
+  background: linear-gradient(to top, #DCDCDC, #AFEEEE);
+}
+
+.instructors-img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  border: 2px solid gray;
+  border-radius: 100px;
+}
