@@ -1,7 +1,4 @@
 .order {
-  height: 350px;
-  background:  #DCDCDC;
-  background: linear-gradient(to top, #AFEEEE, #DCDCDC);
   padding-bottom: 30px;
 }
 
@@ -13,6 +10,6 @@
   width: 90%;
   height: 30px;
   margin: 5, 5, 5, 0;
-  border: 1px solid gray;
+  border: 1px solid lightsteelblue;
   border-radius: 4px;
 }

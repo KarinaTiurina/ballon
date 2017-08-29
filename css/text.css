@@ -4,7 +4,6 @@ body {
 }
 
 .title {
-  font-family: 'Bad Script', cursive;
   font-size: 2em;
 }
 
@@ -18,4 +17,8 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.line {
+  color: lightsteelblue;
 }
