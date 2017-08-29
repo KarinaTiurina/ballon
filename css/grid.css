@@ -15,6 +15,11 @@
   margin-bottom: 20px;
 }
 
+.buffer-small-both {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .buffer-bottom {
   margin-bottom: 20px;
 }

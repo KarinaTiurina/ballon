@@ -1,7 +1,4 @@
 .instructors {
-  height: 350px;
-  background:  #AFEEEE;
-  background: linear-gradient(to top, #DCDCDC, #AFEEEE);
 }
 
 .instructors-img {
@@ -9,7 +6,15 @@
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 150px;
-  border: 2px solid gray;
+  width: 120px;
+  border: 2px solid lightsteelblue;
   border-radius: 100px;
+}
+
+.instructors-text {
+  font-size: 0.85em;
+}
+
+.instructor {
+  min-height: 125px;
 }
