@@ -6,6 +6,15 @@
   margin-top: 50px;
 }
 
+.buffer-bottom-big {
+  margin-bottom: 50px;
+}
+
+.buffer-both-large {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .buffer-left {
   margin-left: 20px;
 }

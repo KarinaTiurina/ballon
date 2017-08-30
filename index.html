@@ -108,7 +108,7 @@
     </div>
   </div>
 
-  <div class="order" id="order">
+  <div class="order buffer-bottom" id="order">
     <div class="container">
       <div class="text-center">
         <h2 class="title chapter-title buffer-bottom">Заказать полёт</h2>
@@ -116,35 +116,41 @@
       <div class="half-column">
         <div class="order-form">
           <form action="" method="">
+            <label for="text">ФИО</label> <br />
+            <input class="order-input buffer-bottom" type="text" /> <br />
+            <label for="text">Телефон</label> <br />
+            <input class="order-input buffer-bottom" type="text" /> <br />
             <label for="text">Количество человек</label> <br />
-            <input class="order-input" type="text" /> <br />
+            <input class="order-input order-num buffer-bottom" type="text" /> <br />
             <label for="text">Маршрут</label> <br />
-            <select class="order-input" size="1" name="route">
+            <select class="order-input buffer-bottom" size="1" name="route">
               <option disabled>Выберите маршрут</option>
               <option selected value="Горный">Горный</option>
               <option value="Озёрный">Озёрный</option>
            </select> <br />
             <label for="text">Дата</label> <br />
-            <input class="order-input" type="text" /> <br />
-            <input type="submit" value="Заказать" class="button button-green buffer-top" />
+            <input class="order-input buffer-bottom" type="text" /> <br />
+            <input class="button button-green" type="submit" value="Заказать"/>
           </form>
         </div>
       </div>
       <div class="half-column text-center">
-        <img src="images/ballon.jpg" alt="Воздушный шар" title="Воздушный шар">
+        <div class="buffer-both-large">
+          <img src="images/ballon.jpg" alt="Воздушный шар" title="Воздушный шар">
+        </div>
       </div>
     </div>
   </div>
 
   <div class="contacts" id="contacts">
     <div class="container">
-      <div class="half-column buffer-top-big">
+      <div class="half-column buffer-top-big buffer-bottom-big">
         <ul>
           <li>Телефон: +4 1237 012 56</li>
           <li>Email: ballon@gmail.com</li>
         </ul>
       </div>
-      <div class="half-column buffer-top">
+      <div class="half-column buffer-top buffer-bottom-big">
         <h2 class="title text-center">Незабываемые впечетления здесь!</h2>
       </div>
     </div>
