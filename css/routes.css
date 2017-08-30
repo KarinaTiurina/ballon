@@ -11,6 +11,8 @@
 
 .route {
   padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin: 10px;
   background: lightsteelblue;
   min-height: 295px;
