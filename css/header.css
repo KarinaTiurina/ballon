@@ -32,6 +32,11 @@
   display: inline-block;
 }
 
+.header-nav-link:hover {
+  color: #333;
+  transition: all ease .3s;
+}
+
 .header-nav-link {
   text-decoration: none;
   color: gray;
